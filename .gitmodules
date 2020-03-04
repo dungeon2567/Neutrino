@@ -1,3 +1,3 @@
 [submodule "lib/msgpack-sharp"]
 	path = lib/msgpack-sharp
-	url = https://github.com/scopely/msgpack-sharp.git
+	url = git@github.com:xdrie/msgpack-sharp.git
