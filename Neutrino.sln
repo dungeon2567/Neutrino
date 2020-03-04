@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeutrinoCore", "NeutrinoCor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeutrinoTests", "NeutrinoTests\NeutrinoTests.csproj", "{16566F07-E0DB-4FFD-9ADE-ACB9F28D7104}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{948FBE91-02BA-4963-BB86-240B42889780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msgpack-sharp", "lib\msgpack-sharp\msgpack-sharp\msgpack-sharp.csproj", "{765753B8-A9EB-4DD1-B0F0-D478E54E9ACB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +23,15 @@ Global
 		{7775CDCB-1DDA-464A-B490-AC28F44E6C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7775CDCB-1DDA-464A-B490-AC28F44E6C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7775CDCB-1DDA-464A-B490-AC28F44E6C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765753B8-A9EB-4DD1-B0F0-D478E54E9ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765753B8-A9EB-4DD1-B0F0-D478E54E9ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765753B8-A9EB-4DD1-B0F0-D478E54E9ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765753B8-A9EB-4DD1-B0F0-D478E54E9ACB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = NeutrinoCore\NeutrinoCore.csproj
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{765753B8-A9EB-4DD1-B0F0-D478E54E9ACB} = {948FBE91-02BA-4963-BB86-240B42889780}
 	EndGlobalSection
 EndGlobal
