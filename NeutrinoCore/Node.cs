@@ -192,7 +192,7 @@ namespace Neutrino.Core
 				var connectMsg = initialMessages.FirstOrDefault<NetworkMessage>(x => (x is ConnectMessage));
 				if (connectMsg == null)
 				{
-					NeutrinoConfig.Log("Ignoring peer who didn't send a ConnectMessage with his initial traffic");
+					NeutrinoConfig.Log("Ignoring peer who didn't send a ConnectMessage with its initial traffic");
 				}
 				else
 				{
